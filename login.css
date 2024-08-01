@@ -1,0 +1,89 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:12px ;
+    position: relative;
+background-image:url(white-background-with-blue-geometric-and-white-line-pattern-free-vector.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:100%,100% ;}
+
+.container{
+    display: flex;
+    /* position: absolute; */
+    justify-content:center ;
+    align-items: center;
+    width:500px ;
+    height:500px;
+   
+
+}
+.header{
+    left:800px ;
+    background-image:url(goose-blue-bottom.png) ;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    background-attachment: fixed;
+    box-shadow:5px 5px 5px 5px  ;
+
+}
+.box{
+    /* top:800px ;
+    left:50% ; */
+    width:400px ;
+    height:400px ;
+}
+.box h1{
+    padding-bottom:150px ;
+    color:white ;
+}
+.box p{
+    font-size:16px ;
+    color:white ;
+}
+.box input{
+    padding:15px 10px 10px 15px ;
+    border-radius:25px ;
+
+}
+.box button{
+   padding:10px 15px 15px 10px ;
+   border-radius:12px ;
+   background-color:royalblue ;
+   color:white ;
+   text-transform:capitalize;
+}
+
+button:hover{
+ background-color: cadetblue;
+ cursor: pointer;
+}
+@media (max-width: 600px) {
+    .container{
+        width:400px;
+        height:500px;
+
+    }    
+    .header{
+        left:30px; 
+    height:400px; 
+    }
+    
+    body{
+ 
+       background-size:100% 100%; 
+        
+    }
+   
+
+
+
+
+
+
+
+}
